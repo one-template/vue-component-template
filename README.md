@@ -77,6 +77,7 @@ npm run build
 
 ```bash
 npm run docs:start
+# http://localhost:8888/
 ```
 
 ### Online preview
