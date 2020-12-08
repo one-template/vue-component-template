@@ -93,6 +93,16 @@ https://one-template.github.io/vue-component-template/
 - Update the `highlight.js` version carefully
 - One 🌰 : [Knotes](https://github.com/xrkffgg/Knotes)
 
+## 🎈 Aide
+
+- [Issue template](https://github.com/one-template/issue-template)
+- [PR template](https://github.com/one-template/pr-template)
+- [Actions use](https://github.com/github-actions-workflows/.github)
+
+## 🎉 Who are using？
+
+- 
+
 ## License
 
 [MIT](https://github.com/one-template/vue-component-template/blob/main/LICENSE)
