@@ -101,7 +101,7 @@ https://one-template.github.io/vue-component-template/
 
 ## 🎉 Who are using？
 
-- 
+- [image-tool/vue-image-shadow](https://github.com/image-tool/vue-image-shadow)
 
 ## License
 
