@@ -1,7 +1,9 @@
 /**
+ * @author xrkffgg
+ * @created 2020.12.11
  * @description Quickly modify the project name
  * @description 快捷修改项目名称
- * node ./rename.js
+ * @command node ./rename.js
  */
 
 const { readFileSync, writeFileSync } = require('fs');
@@ -18,7 +20,7 @@ const componentTag = 'component-template';
 const componentName = `${firstUpperCase(componentTag.split('-')[0])}${firstUpperCase(componentTag.split('-')[1])}`;  // 'ComponentTemplate'
 
 // Switch
-const re_license = true;
+const re_license = false;
 const re_package = true;
 const re_docs = true;
 const re_examples = true;
