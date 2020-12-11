@@ -1,2 +1,2 @@
-import ComponentTemplate from "./template.vue";
+import ComponentTemplate from "./app.vue";
 export default ComponentTemplate;

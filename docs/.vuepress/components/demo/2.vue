@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ComponentTemplate from '../template'
+import ComponentTemplate from '../app'
 
 export default {
   components: {
