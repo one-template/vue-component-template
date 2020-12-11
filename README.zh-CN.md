@@ -95,6 +95,7 @@ https://one-template.github.io/vue-component-template/
 
 ## 🎈 辅助
 
+- [快捷修改工程名称](./rename.js)
 - [Issue 模板](https://github.com/one-template/issue-template)
 - [PR 模板](https://github.com/one-template/pr-template)
 - [Actions 使用](https://github.com/github-actions-workflows/.github)
