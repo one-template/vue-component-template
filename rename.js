@@ -18,9 +18,9 @@ const componentTag = 'component-template';
 const componentName = `${firstUpperCase(componentTag.split('-')[0])}${firstUpperCase(componentTag.split('-')[1])}`;  // 'ComponentTemplate'
 
 // Switch
-const re_license = false;
-const re_package = false;
-const re_docs = false;
+const re_license = true;
+const re_package = true;
+const re_docs = true;
 const re_examples = true;
 const re_src = true;
 
