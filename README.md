@@ -24,7 +24,7 @@ English | [简体中文](./README.zh-CN.md)
 ├── public                 Component development and debugging display
 ├── src                    Component home directory
 │   ├── index.js           Component registration
-│   └── template.vue       Component implementation code
+│   └── app.vue            Component implementation code
 └── vue.config.js          Component development package configuration
 ```
 

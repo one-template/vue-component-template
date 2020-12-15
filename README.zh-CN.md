@@ -24,7 +24,7 @@
 ├── public                 组件开发调试展示
 ├── src                    组件主目录
 │   ├── index.js           组件注册
-│   └── template.vue       组件实现代码
+│   └── app.vue            组件实现代码
 └── vue.config.js          组件开发打包配置
 ```
 
