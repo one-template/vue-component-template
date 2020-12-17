@@ -21,7 +21,7 @@
         class="btn"
         @click="doChange"
         :class="isShow ? 'normal': 'active'">
-        {{ isShow ? 'Show Source' : 'Show Code' }}
+        {{ isShow ? 'Show Source' : 'Show Example' }}
       </div>
     </div>
   </div>
