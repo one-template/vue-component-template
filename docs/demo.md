@@ -1,10 +1,12 @@
 # Demo
 
+Two methods are provided here, and you can also add your own.
+
 ## Demo1
 
 This is a demo.
 
-<demo-code>
+<demo-code1>
   <demo-1></demo-1>
   <highlight-code slot="codeText" lang="vue">
     <template>
@@ -13,13 +15,13 @@ This is a demo.
       </div>
     </template>
   </highlight-code>
-</demo-code>
+</demo-code1>
 
 ## Demo2
 
 This is another demo.
 
-<demo-code>
+<demo-code2>
   <demo-2></demo-2>
   <highlight-code slot="codeText" lang="vue">
     <template>
@@ -33,4 +35,4 @@ This is another demo.
       }
     </style>
   </highlight-code>
-</demo-code>
+</demo-code2>

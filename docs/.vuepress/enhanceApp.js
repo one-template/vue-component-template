@@ -6,7 +6,8 @@ import vue from 'vue-highlight.js/lib/languages/vue';
 
 import 'highlight.js/styles/atom-one-dark-reasonable.css';
 
-import DemoCode from './components/demoCode.vue'
+import DemoCode1 from './components/demoCode1.vue'
+import DemoCode2 from './components/demoCode2.vue'
 
 export default ({
   Vue,
@@ -21,5 +22,6 @@ export default ({
       vue
     }
   })
-  Vue.component('demo-code', DemoCode)
+  Vue.component('demo-code1', DemoCode1)
+  Vue.component('demo-code2', DemoCode2)
 }

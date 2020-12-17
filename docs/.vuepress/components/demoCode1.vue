@@ -1,15 +1,15 @@
 <template>
-  <div class="code">
+  <div class="code1">
     <div class="code--demo">
       <div class="code-content">
         <slot></slot>
       </div>
     </div>
-    <div v-if="isShow" class="code--code">
+    <div v-show="isShow" class="code--code">
       <slot name="codeText"></slot>
     </div>
     <div
-      v-if="$slots.codeText"
+      v-show="$slots.codeText"
       class="code--button"
       :class="isShow ? 'code-open' : ''"
       @click="handleToggleShow">
@@ -20,8 +20,6 @@
 
 <script>
 export default {
-  name: 'DemoPage',
-  props: ['title', 'description'],
   data() {
     return {
       isShow: false,
@@ -37,8 +35,8 @@ export default {
 }
 </script>
 
-<style lang="less" scoped>
-.code {
+<style lang="less">
+.code1 {
   margin-top: 20px;
   border: 1px solid #ebebeb;
   border-radius: 3px;
@@ -59,10 +57,10 @@ export default {
 
   .code--code {
     animation: show .5s linear 1;
-    padding: 10px;
   }
 
   .code--button {
+    width: 100%;
     color: #d3dce6;
     font-weight: 400;
     line-height: 40px;
@@ -77,6 +75,8 @@ export default {
   }
 
   .code-open {
+    color: #3eaf7c;
+    background-color: #f9fafc;
     border-top: 1px solid #ebebeb;
   }
 }
